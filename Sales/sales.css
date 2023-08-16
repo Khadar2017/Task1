@@ -1,0 +1,117 @@
+.css
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+body {
+background-color:  rgb(47,51,73);
+}
+
+span {
+    color: blue;
+}
+.img{
+    display: flex;
+    width: 50%;
+    height: 45%;
+}
+.card {
+    max-width: 600px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+  }
+  
+  .card-image {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .SignUp .right1 {
+  /* border: 1px solid whitesmoke; */
+  margin-top: 150px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  }
+
+  .SignUp .right1 input {
+    background-color: transparent;
+    border: 1px solid rgb(83, 83, 83) ;
+    padding: 5px 100px 5px 4px;
+    border-radius: 5px;
+    margin-bottom: -150px;
+  }
+  .SignUp .right1 label {
+    font-size: 12px;
+  }
+  
+    .SignUp .right1 .btn {
+      padding: 10px 110px;
+      background-color: rgb(39, 39, 180);
+      color: white;
+      border: transparent;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    .SignUp .right1 .p2 {
+      font-size: 11px;
+      margin-left: 30px;
+    }
+    .SignUp .right1 .p2 span {
+      font-size: 11px;
+      color:  rgb(39, 39, 180);
+    }
+    .SignUp .right1 .agree {
+      font-size: 11px;
+    }
+    .SignUp .right1 .heading {
+      margin: 0px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+     .SignUp .right1 .subheading {
+      font-size: 11px;
+     }
+     .SignUp .right1  .rocket {
+      position: absolute;
+      top: 155px;
+      right: 165px;
+     }
+    .SignUp .right2 i {
+      border: 1px solid rgb(19, 58, 141);
+      border-radius: 5px;
+      padding: 4px;
+      margin-left: 3px;
+      filter: drop-shadow(3px 3px 6px rgb(22, 62, 196));
+      background-color: rgb(22, 62, 196);
+      
+
+    }
+    .SignUp .right2  .fa-facebook{
+      margin-left: 75px;
+    
+    }
+   
+   hr{
+    margin-top: 20px;
+    width : 80%;
+    border: 1px solid rgb(83, 83, 83) ;
+   }
+   .or {
+    
+    background-color:rgb(47,51,73) ;
+    color: rgb(83, 83, 83); 
+    width: 20px;
+    margin: -19px auto 10px;
+   }
+   /
